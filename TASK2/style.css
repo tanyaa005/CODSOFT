@@ -1,0 +1,117 @@
+/* Import Google Fonts instead of only custom font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+@font-face {
+    font-family: "nos";
+    src: url("fonts/OneDirection.ttf") format("truetype");
+}
+
+/* Headings */
+.paragraph {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.paragraph2 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "nos", 'Poppins', sans-serif;
+    color: #ff4d6d;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* Navigation */
+.menu-bar {
+    text-align: center;
+    background-color: #111;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 20px;
+    color: floralwhite;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-bar ul li:hover {
+    background: linear-gradient(45deg, #ff4d6d, #e63946);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Body Text */
+.paragraph5 {
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px auto;
+    color: #f1f1f1;
+    max-width: 850px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Call to Action Button */
+.lets-go-btn {
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(90deg, #e63946, #ff6b6b);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 25px;
+    padding: 12px 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.lets-go-btn:hover {
+    background: linear-gradient(90deg, #b71c1c, #ff1e56);
+    transform: scale(1.05);
+}
+
+/* Social Icons */
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 2.5rem;
+    margin-top: 15px;
+}
+
+.icons a {
+    transition: transform 0.3s, color 0.3s;
+}
+
+.icons a:hover {
+    transform: scale(1.3) rotate(5deg);
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    margin-top: 8%;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.p1 {
+    color: floralwhite;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
